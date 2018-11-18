@@ -1,0 +1,286 @@
+/*
+  Color codes
+  - body (text)     #3a4750
+  - heading         #444444
+  - theme (links)   #01ad54
+  - link hover      #006832
+  - sections        #bbbbbb
+*/
+
+body {
+  font-family: 'Hind', sans-serif;
+  font-size: 15px;
+  line-height: 1.8em;
+  color: #989898;
+  font-weight: 300;
+  background: #f8f8f8;
+}
+
+/* ----------------------------------------------
+ * global typography
+ * ---------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 15px;
+  color: #444444;
+}
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 36px;
+  line-height: 1.8em;
+  font-weight: 700;
+  letter-spacing: .1rem;
+}
+h2 {
+  font-size: 18px;
+  line-height: 1.8em;
+  font-weight: 700;
+}
+h3 {
+  font-size: 13px;
+  line-height: 1.8em;
+  font-weight: 700;
+}
+h4 {
+  font-size: 15px;
+  line-height: 1.8em;
+  font-weight: 500;
+}
+h5 {
+  font-size: 15px;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+h6 {
+  font-size: 15px;
+  line-height: 1.5em;
+}
+p {
+  margin-bottom: 20px;
+}
+strong {
+  color: #444444;
+}
+
+/* ----------------------------------------------
+ * link style
+ * ---------------------------------------------- */
+a {
+  color: #01ad54;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+a, a:active, a:focus, a:active {
+  text-decoration: none;
+  outline: none
+}
+a:hover, a:focus {
+  text-decoration: none;
+  color: #006832;
+}
+
+/* ----------------------------------------------
+ * main wrapper
+ * ---------------------------------------------- */
+#main-wrapper {
+  overflow: hidden;
+}
+.container {
+  max-width: 850px;
+}
+
+/* ----------------------------------------------
+ * section wrapper
+ * ---------------------------------------------- */
+.section-wrapper {
+  padding: 30px 0;
+}
+@media (max-width: 768px) {
+  .section-wrapper {
+    padding: 20px 0;
+  }
+}
+@media (max-width: 600px) {
+  .section-wrapper {
+    padding: 20px;
+  }
+}
+
+/* ----------------------------------------------
+ * section title
+ * ---------------------------------------------- */
+.section-title {
+  font-family: 'Fjalla One', sans-serif;
+  padding-right: 15px;
+  text-align: right;
+  border-right: 3px solid #01ad54;
+}
+.section-title h2 {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #bbbbbb;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: .1rem;
+}
+@media (max-width: 768px) {
+  .section-title {
+    text-align: left;
+  }
+  .section-title h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+
+/* ----------------------------------------------
+ * navigation and header style
+ * ---------------------------------------------- */
+.header {
+  padding: 40px 0 30px 0;
+  margin: 0;
+  position: relative;
+  border-top: 7px solid #01ad54;
+}
+.header .profile-img {
+  margin-bottom: 20px;
+}
+.header .name-wrapper {
+  margin-bottom: 15px;
+}
+.header .name-wrapper h1 {
+  line-height: 1;
+  margin: 0 0 5px;
+}
+.header .name-wrapper h2 {
+  font-size: 24px;
+  color: #01ad54;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .header {
+    padding: 20px 0;
+  }
+    .header .profile-img {
+    margin: 0 0 30px;
+  }
+}
+@media (max-width: 600px) {
+  .header{
+    padding: 20px;
+  }
+}
+
+/* ----------------------------------------------
+ * social icon
+ * ---------------------------------------------- */
+.social-icon {
+  margin: 2px 0;
+  padding: 0;
+  display: block;
+}
+.social-icon li {
+  display: inline-block;
+  margin: 0 2px;
+}
+.social-icon li a {
+  display: block;
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+  line-height: 31px;
+  text-align: center;
+  color: #01ad54;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+.social-icon li a:hover {
+  color: #006832;
+}
+
+/* ----------------------------------------------
+ * news
+ * ---------------------------------------------- */
+.news-wrapper ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.news-wrapper li {
+  padding-left: 20px; /* with hanging indent */
+  text-indent: -20px;
+}
+.news-wrapper li strong {
+  font-weight: 500;
+}
+
+/* ----------------------------------------------
+ * publications
+ * ---------------------------------------------- */
+.publications-wrapper .publications-item {
+  margin-bottom: 20px;
+}
+.publications-wrapper .publications-item .title {
+  color: #444444;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+/* ----------------------------------------------
+ * portfolio
+ * ---------------------------------------------- */
+.portfolio-item {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+.portfolio-item .portfolio-thumb img {
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+.portfolio-item .portfolio-info {
+  position: absolute;
+  padding: 15px 15px 5px;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  background: -webkit-linear-gradient( top, transparent 0%, rgba(0, 0, 0, 0.5) 100% );
+}
+.portfolio-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: -webkit-linear-gradient( top, transparent 0%, #000 100% );
+  transition: all .2s linear;
+}
+.portfolio-item:hover::after {
+  top: 0;
+}
+.portfolio-item .portfolio-info h3 {
+  margin: 0;
+  line-height: 1;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.portfolio-item .portfolio-info small {
+  color: rgba(255, 255, 255, .5);
+}
+
+/* ----------------------------------------------
+ * contact
+ * ---------------------------------------------- */
+.contact-wrapper address strong {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
