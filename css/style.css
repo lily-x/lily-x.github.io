@@ -59,6 +59,7 @@ p {
 }
 strong {
   color: #444444;
+  font-weight: 500;
 }
 
 /* ----------------------------------------------
@@ -230,6 +231,10 @@ a:hover, a:focus {
   font-weight: 500;
   margin-bottom: 3px;
 }
+.publications-wrapper .publications-item .conference {
+  margin-bottom: 3px;
+}
+
 
 /* ----------------------------------------------
  * portfolio
