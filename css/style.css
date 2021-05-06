@@ -82,6 +82,12 @@ a:hover, a:focus {
   color: #006832;
 }
 
+.bib {
+  display: none;
+  background: #fff;
+  font-family: Consolas, "Courier New";
+}
+
 /* ----------------------------------------------
  * main wrapper
  * ---------------------------------------------- */

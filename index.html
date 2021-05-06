@@ -128,7 +128,16 @@
                     <div class="col-sm-12">
 
                         <div class="publications-item">
-                            <p class="title">Envisioning Communities: A Participatory Approach Towards AI for Social Good <a href="https://arxiv.org/pdf/2105.01774.pdf">[paper]</a>
+                            <p class="title">Envisioning Communities: A Participatory Approach Towards AI for Social Good <a href="https://arxiv.org/pdf/2105.01774.pdf">[paper]</a> <a onclick="showbib('aies21')">[bib]</a>
+
+<pre id="aies21" class="bib">
+@inproceedings{bondi2021envisioning,
+  title={Envisioning Communities: A Participatory Approach Towards AI for Social Good},
+  author={Bondi, Elizabeth and Xu, Lily and Acosta-Navas, Diana and Killian, Jackson A.},
+  booktitle={Fourth AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society (AIES-21)},
+  year={2021},
+}
+</pre>
 
                             <p class="conference"><em><strong>AIES 2021</strong> Fourth AAAI/ACM Conference on AI, Ethics, and Society</em></p>
 
@@ -137,17 +146,32 @@
                         </div>
 
                         <div class="publications-item">
-                            <p class="title">Dual-Mandate Patrols: Multi-Armed Bandits for Green Security <a href="https://arxiv.org/pdf/2009.06560.pdf">[paper]</a> <a href="https://github.com/lily-x/dual-mandate">[code]</a>
+                            <p class="title">Dual-Mandate Patrols: Multi-Armed Bandits for Green Security <a href="https://arxiv.org/pdf/2009.06560.pdf">[paper]</a> <a href="https://github.com/lily-x/dual-mandate">[code]</a> <a onclick="showbib('aaai21')">[bib]</a>
 
+<pre id="aaai21" class="bib">
+@inproceedings{xu2021dual,
+  title={Dual-Mandate Patrols: Multi-Armed Bandits for Green Security},
+  author={Xu, Lily and Bondi, Elizabeth and Fang, Fei and Perrault, Andrew and Wang, Kai and Tambe, Milind},
+  booktitle={Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI-21)},
+  year={2021}
+}
+</pre>
                             <p class="conference"><em><strong>AAAI 2021</strong> Thirty-Fifth AAAI Conference on Artificial Intelligence</em></p>
 
                             <p>Lily Xu, Elizabeth Bondi, Fei Fang, Andrew Perrault, Kai Wang, Milind Tambe<br/>
                             <strong style="color:#267fbf";>Best Paper Award Runner Up</strong></p>
                         </div>
-
                         <div class="publications-item">
-                            <p class="title">Enhancing Poaching Predictions for Under-Resourced Wildlife Conservation Parks Using Remote Sensing Imagery <a href="https://arxiv.org/pdf/2011.10666.pdf">[paper]</a>
+                            <p class="title">Enhancing Poaching Predictions for Under-Resourced Wildlife Conservation Parks Using Remote Sensing Imagery <a href="https://arxiv.org/pdf/2011.10666.pdf">[paper]</a> <a onclick="showbib('ml4d20')">[bib]</a>
 
+<pre id="ml4d20" class="bib">
+@inproceedings{guo2020enhancing,
+  title={Enhancing Poaching Predictions for Under-Resourced Wildlife Conservation Parks Using Remote Sensing Imagery},
+  author={Guo, Rachel and Xu, Lily and Plumptre, Andrew and Cronin, Drew and Okeke, Francis and Tambe, Milind},
+  booktitle={NeurIPS Workshop on Machine Learning for the Developing World},
+  year={2020}
+}
+</pre>
                             <p class="conference"><em>NeurIPS Workshop on Machine Learning for Development (ML4D) 2020</em></p>
 
                             <p>Rachel Guo, Lily Xu, Andrew Plumptre, Drew Cronin, Francis Okeke, and Milind Tambe</p>
@@ -171,13 +195,24 @@
                         </div>
 
                         <div class="publications-item">
-                            <p class="title">Stay Ahead of Poachers: Illegal Wildlife Poaching Prediction and Patrol Planning Under Uncertainty with Field Test Evaluations <a href="https://arxiv.org/pdf/1903.06669.pdf">[paper]</a> <a href="https://www.youtube.com/watch?v=EJzEKQMMzsE">[talk]</a> <a href="https://github.com/lily-x/PAWS-public">[code]</a> <a href="files/poster_DMAIC19.pdf">[poster]</a></p>
+                            <p class="title">Stay Ahead of Poachers: Illegal Wildlife Poaching Prediction and Patrol Planning Under Uncertainty with Field Test Evaluations <a href="https://arxiv.org/pdf/1903.06669.pdf">[paper]</a> <a href="https://www.youtube.com/watch?v=EJzEKQMMzsE">[talk]</a> <a href="https://github.com/lily-x/PAWS-public">[code]</a> <a onclick="showbib('icde20')">[bib]</a>
+                                <!-- <a href="files/poster_DMAIC19.pdf">[poster]</a></p> -->
+
+<pre id="icde20" class="bib">
+@inproceedings{xu2020stay,
+  title={Stay Ahead of Poachers: Illegal Wildlife Poaching Prediction and Patrol Planning Under Uncertainty with Field Test Evaluations},
+  author={Xu, Lily and Gholami, Shahrzad and Mc Carthy, Sara and Dilkina, Bistra and Plumptre, Andrew and Tambe, Milind and Singh, Rohit and Nsubuga, Mustapha and Mabonga, Joshua and Driciru, Margaret and others},
+  booktitle={IEEE 36th International Conference on Data Engineering (ICDE-20)},
+  year={2020}
+}
+</pre>
 
                             <p class="conference"><em><strong>ICDE 2020</strong> IEEE International Conference on Data Engineering</em></p>
 
                             <p>Lily Xu*, Shahrzad Gholami*, Sara Mc Carthy, Bistra Dilkina, Andrew Plumptre, Milind Tambe, Rohit Singh, Mustapha Nsubuga, Joshua Mabonga, Margaret Driciru, Fred Wanyama, Aggrey Rwetsiba, Tom Okello, Eric Enyel
                               <br />*Equal contribution</p>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -252,6 +287,17 @@
 </section>
 
 </div>
+
+<script>
+function showbib(conf) {
+  var x = document.getElementById(conf);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 
 <!-- <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script> -->
