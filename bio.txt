@@ -4,3 +4,5 @@ Lily Xu is a PhD student studying computer science at Harvard University, advise
 
 
 Lily Xu is a PhD student studying computer science at Harvard University, advised by Prof. Milind Tambe. Her research applies online learning and game theory to wildlife conservation. She has focused on the prevention of illegal wildlife poaching; her work on predictive models to prevent poaching is being deployed to 800 protected areas around the world on the SMART conservation software, in partnership with organizations including the World Wide Fund for Nature and Microsoft AI for Earth.
+
+Lily Xu is a PhD student studying computer science at Harvard University, advised by Prof. Milind Tambe. Her research applies machine learning and game theory to wildlife conservation. She has focused on the prevention of illegal wildlife poaching; her work on predictive models to prevent poaching is being deployed to 800 protected areas around the world on the SMART conservation software, in collaboration with the SMART partnership and Microsoft AI for Earth.
