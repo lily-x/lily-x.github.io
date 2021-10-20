@@ -7,5 +7,7 @@ Lily Xu is a PhD student studying computer science at Harvard University, advise
 
 Lily Xu is a PhD student studying computer science at Harvard University, advised by Prof. Milind Tambe. Her research applies machine learning and game theory to wildlife conservation. She has focused on the prevention of illegal wildlife poaching; her work on predictive models to prevent poaching is being deployed to 1,000 protected areas around the world on the SMART conservation software, in collaboration with the SMART partnership and Microsoft AI for Earth.
 
+Lily Xu is a PhD student focusing on AI, specifically machine learning and game theory, for environmental conservation. She has focused on the prevention of illegal wildlife poaching; her work on predictive models to prevent poaching has been deployed in Cambodia and is now being scaled to 1,000 protected areas around the world on the SMART conservation software.
+
 
 (note Bryan's bio:  Bryan Wilder is a fifth-year PhD student in Computer Science at Harvard University, where he is advised by Milind Tambe. His research focuses on the intersection of optimization and machine learning, with the goal of improving interventions that serve vulnerable populations. His work has received or been nominated for best paper awards at ICML and AAMAS, and was a finalist for the INFORMS Doing Good with Good OR competition. He is supported by a NSF Graduate Research Fellowship.)
