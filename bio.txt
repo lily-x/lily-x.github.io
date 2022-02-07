@@ -9,5 +9,38 @@ Lily Xu is a PhD student studying computer science at Harvard University, advise
 
 Lily Xu is a PhD student focusing on AI, specifically machine learning and game theory, for environmental conservation. She has focused on the prevention of illegal wildlife poaching; her work on predictive models to prevent poaching has been deployed in Cambodia and is now being scaled to 1,000 protected areas around the world on the SMART conservation software.
 
+Lily Xu is a PhD student at Harvard University developing AI techniques, specifically in machine learning and game theory, for environmental conservation. Her research focuses on the prevention of illegal wildlife poaching; her work on predictive models to prevent poaching has been deployed in Cambodia and is now being scaled to 1,000 protected areas around the world on the SMART conservation software. 
+
+Lily Xu is a PhD student at Harvard University developing AI techniques, specifically in machine learning and game theory, for environmental conservation. Her research focuses on the prevention of illegal wildlife poaching: this work has been deployed in Cambodia and is now being scaled to 1,000 protected areas around the world on the SMART conservation software. Her work has been recognized with best paper runner-up at AAAI and the INFORMS Doing Good with Good OR award. 
+
+
+In collaboration with conservation NGOs, our project helps plan effective ranger patrols to protect endangered animals from poaching. Algorithmically, the problem is to optimize limited resources to maximize the number of snares confiscated. Given limited and incomplete data, we leverage linear programming, multi-armed bandits, and game theory to handle uncertainty about poacher behavior. Our approaches are supported with theorems, experiments, and real-world field tests. Our system is being integrated into existing conservation software to become available to 800 protected areas worldwide
+
+
+---------
+
+[Pasteur's Quadrant seminar Feb 2022]
+
+Bio: Lily Xu is a PhD student at Harvard University developing AI techniques, specifically in machine learning and game theory, for environmental conservation. Her primary application area has been the prevention of illegal wildlife poaching. Her work has been recognized with best paper runner-up at AAAI and the INFORMS Doing Good with Good OR award.
+
+Abstract: Wildlife poaching fuels the multi-billion dollar illegal wildlife trade and pushes countless species to the brink of extinction. To aid rangers in preventing poaching in protected areas around the world, we have developed PAWS, the Protection Assistant for Wildlife Security. We present technical advances in multi-armed bandits and robust sequential decision-making using reinforcement learning, with research questions that emerged from on-the-ground challenges. We also discuss bridging the gap between research and practice, presenting results from field deployment in Cambodia and large-scale deployment through integration with SMART, the leading software system for protected area management used by over 1,000 wildlife parks worldwide. 
+
+PAWS has been developed in close collaboration with conservation organizations including the World Wide Fund for Nature (WWF) and Wildlife Conservation Society (WCS). 
+
+
+-----------------
+
+
+To prevent poaching, rangers conduct patrols around these protected areas to detect and confiscate snares. Unfortunately, poachers have the upper hand; wire snares are extremely cheap to make and easy to carry, so poachers can easily blanket the ground with snares
+
+Profit-driven poachers will enter protected areas and place snares to entrap animals. 
+
+Our project is called PAWS, the Protection Assistant for Wildlife Security, which has been created in close partnership with a number of conservation organizations, including the World Wide Fund for Nature (WWF) and Wildlife Conservation Society (WCS)
+
+Although SMART records significant amounts of historical data, its current capabilities are limited to managing data; the missing link is to leverage that data to inform patrol strategy
+
+In collaboration with conservation NGOs, our project helps plan effective ranger patrols to protect endangered animals from poaching. Algorithmically, the problem is to optimize limited resources to maximize the number of snares confiscated. Given limited and incomplete data, we leverage linear programming, multi-armed bandits, and game theory to handle uncertainty about poacher behavior. Our approaches are supported with theorems, experiments, and real-world field tests. Our system is being integrated into existing conservation software to become available to 1,000 protected areas worldwide.
+
+
 
 (note Bryan's bio:  Bryan Wilder is a fifth-year PhD student in Computer Science at Harvard University, where he is advised by Milind Tambe. His research focuses on the intersection of optimization and machine learning, with the goal of improving interventions that serve vulnerable populations. His work has received or been nominated for best paper awards at ICML and AAMAS, and was a finalist for the INFORMS Doing Good with Good OR competition. He is supported by a NSF Graduate Research Fellowship.)
