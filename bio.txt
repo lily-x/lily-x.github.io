@@ -54,6 +54,10 @@ Bio: Lily Xu is a PhD student at Harvard working with Prof. Milind Tambe to deve
 
 
 
+Lily Xu is a PhD student at Harvard working with Prof. Milind Tambe to develop AI techniques, specifically in machine learning and game theory, for environmental conservation. Her primary application area is wildlife conservation through preventing illegal wildlife poaching; her work building the PAWS system to predict poaching hotspots has been deployed in Cambodia and is being scaled globally through integration with SMART conservation software. Lily also co-organizes the Mechanism Design for Social Good (MD4SG) research initiative. 
+
+Lily Xu is a PhD student at Harvard developing AI techniques to address environmental challenges. She has primarily focused on advancing methods in machine learning and game theory for wildlife conservation through preventing illegal wildlife poaching. Her work building the PAWS system to predict poaching hotspots has been deployed in Cambodia and is being scaled globally to 1,000 protected areas through integration with SMART conservation software. Lily co-organizes the Mechanism Design for Social Good (MD4SG) research initiative, and her research has been recognized with best paper runner-up at AAAI and the INFORMS Doing Good with Good OR award.
+
 ------------------
 
 
