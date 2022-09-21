@@ -56,7 +56,43 @@ Bio: Lily Xu is a PhD student at Harvard working with Prof. Milind Tambe to deve
 
 Lily Xu is a PhD student at Harvard working with Prof. Milind Tambe to develop AI techniques, specifically in machine learning and game theory, for environmental conservation. Her primary application area is wildlife conservation through preventing illegal wildlife poaching; her work building the PAWS system to predict poaching hotspots has been deployed in Cambodia and is being scaled globally through integration with SMART conservation software. Lily also co-organizes the Mechanism Design for Social Good (MD4SG) research initiative. 
 
-Lily Xu is a PhD student at Harvard developing AI techniques to address environmental challenges. She has primarily focused on advancing methods in machine learning and game theory for wildlife conservation through preventing illegal wildlife poaching. Her work building the PAWS system to predict poaching hotspots has been deployed in Cambodia and is being scaled globally to 1,000 protected areas through integration with SMART conservation software. Lily co-organizes the Mechanism Design for Social Good (MD4SG) research initiative, and her research has been recognized with best paper runner-up at AAAI and the INFORMS Doing Good with Good OR award.
+Lily Xu is a PhD student at Harvard developing AI techniques to address environmental challenges. She has focused on advancing methods in machine learning and game theory for wildlife conservation through preventing illegal wildlife poaching. Her work building the PAWS system to predict poaching hotspots has been deployed in Cambodia and is being scaled globally to 1,000 protected areas through integration with SMART conservation software. Lily co-organizes the Mechanism Design for Social Good (MD4SG) research initiative, and her research has been recognized with best paper runner-up at AAAI, the INFORMS Doing Good with Good OR award, and a Google PhD Fellowship.
+
+
+
+—————————
+Title: Learning and Planning Under Uncertainty for Wildlife Conservation
+
+Abstract: Wildlife poaching fuels the multi-billion dollar illegal wildlife trade and pushes countless species to the brink of extinction. To aid rangers in preventing poaching in protected areas around the world, we have developed PAWS, the Protection Assistant for Wildlife Security. We present technical advances in multi-armed bandits and robust sequential decision-making using reinforcement learning, with research questions that emerged from on-the-ground challenges. We also discuss bridging the gap between research and practice, presenting results from field deployment in Cambodia and large-scale deployment through integration with SMART, the leading software system for protected area management used by over 1,000 wildlife parks worldwide.
+
+Bio: Lily Xu is a PhD student at Harvard developing AI techniques to address environmental planning challenges. She has focused on advancing methods in machine learning and game theory for wildlife conservation through preventing illegal wildlife poaching. Lily co-organizes the Mechanism Design for Social Good (MD4SG) research initiative, and her research has been recognized with best paper runner-up at AAAI, the INFORMS Doing Good with Good OR award, and a Google PhD Fellowship.
+
+——————————
+
+[want to justify that biodiversity is URGENT and CRITICAL]
+
+Ceballos et al. Science Advances 2015. Accelerated modern human–induced species losses: Entering the sixth mass extinction https://www.science.org/doi/10.1126/sciadv.1400253
+
+Bondi*, Xu*, Acosta-Navas, Killian. AIES 2021. Envisioning Communities: A Participatory Approach Towards AI for Social Good https://arxiv.org/pdf/2105.01774.pdf
+
+
+https://www.science.org/doi/10.1126/sciadv.1400253
+
+(optional readings) 
+AI empowers conservation biology https://www.nature.com/articles/d41586-019-00746-1
+
+
+[poaching impacts] Hauenstein et al. 2019. Nature Communications. African elephant poaching rates correlate with local poverty, national corruption and global ivory price https://www.nature.com/articles/s41467-019-09993-2
+
+
+
+[participatory design] Kuiper et al. 2020. Biological Conservation. Rangers and modellers collaborate to build and evaluate spatial models of African elephant poaching https://www.sciencedirect.com/science/article/abs/pii/S0006320719319512
+
+
+
+[on my work on AI for poaching prevention] Xu et al. 2020. ICDE. Stay Ahead of Poachers: Illegal Wildlife Poaching Prediction and Patrol Planning Under Uncertainty with Field Test Evaluations  https://arxiv.org/pdf/1903.06669.pdf
+
+
 
 ------------------
 
