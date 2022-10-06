@@ -19,6 +19,12 @@ In collaboration with conservation NGOs, our project helps plan effective ranger
 
 ---------
 
+Analytics for a Better World, Sept 2022
+
+Wildlife poaching fuels the multi-billion dollar illegal wildlife trade and pushes countless species to the brink of extinction. To aid rangers in preventing poaching in protected areas around the world, we have developed PAWS, the Protection Assistant for Wildlife Security. We present technical advances in multi-armed bandits and robust sequential decision-making using reinforcement learning, with research questions that emerged from on-the-ground challenges. We also discuss bridging the gap between research and practice, presenting results from field tests in Cambodia and large-scale deployment through integration with SMART, the leading software system for protected area management used by over 1,000 wildlife parks worldwide.
+
+——————————
+
 [Pasteur's Quadrant seminar Feb 2022]
 
 Bio: Lily Xu is a PhD student at Harvard University developing AI techniques, specifically in machine learning and game theory, for environmental conservation. Her primary application area has been the prevention of illegal wildlife poaching. Her work has been recognized with best paper runner-up at AAAI and the INFORMS Doing Good with Good OR award.
