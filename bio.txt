@@ -100,6 +100,15 @@ AI empowers conservation biology https://www.nature.com/articles/d41586-019-0074
 
 
 
+
+------------------
+
+Talk title: Conserving the Most Vulnerable Wildlife: Ranked Prioritization of Groups with Combinatorial Bandits
+
+Abstract: Wildlife poaching fuels the multi-billion dollar illegal wildlife trade and pushes countless species to the brink of extinction. To aid rangers in preventing poaching in protected areas around the world, we develop an multi-armed bandit approach to help rangers choose how much time to spend in each region, balancing exploration of infrequently visited regions and exploitation of known hotspots. However, naive bandit approaches compromise short-term performance for long-term optimality, resulting in animals poached. To speed up performance, we leverage smoothness in the reward function and decomposability of actions. Additionally, when some species are more vulnerable, we ought to offer more protection to these animals; unfortunately, existing bandit approaches do not offer a way to prioritize important species. To bridge this gap, we propose a novel combinatorial bandit objective that trades off between reward maximization and species prioritization. We demonstrate that our approach improves performance on real-world poaching data from Cambodia.
+
+Bio: Lily Xu is a PhD student at Harvard developing AI techniques to address environmental planning challenges. She has focused on advancing methods in machine learning and game theory for wildlife conservation through preventing wildlife poaching. Lily co-organizes the Mechanism Design for Social Good (MD4SG) research initiative, and her research has been recognized with best paper runner-up at AAAI, the INFORMS Doing Good with Good OR award, and a Google PhD Fellowship.
+
 ------------------
 
 
