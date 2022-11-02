@@ -123,9 +123,10 @@ a:hover, a:focus {
  * ---------------------------------------------- */
 .section-title {
   font-family: 'Fjalla One', sans-serif;
-  padding-right: 15px;
+  /* padding-right: 15px; */
+  padding: 10px 15px 10px 0;
   text-align: right;
-  border-right: 3px solid #01ad54;
+  border-right: 5px solid #01ad54;
 }
 .section-title h2 {
   font-size: 16px;
@@ -134,6 +135,7 @@ a:hover, a:focus {
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: .1rem;
+  /* background: #fff; */
 }
 @media (max-width: 768px) {
   .section-title {
@@ -177,19 +179,46 @@ a:hover, a:focus {
   margin: 0;
   padding: 0;
 }
+
 @media (max-width: 768px) {
   .header {
     padding: 20px 0;
   }
     .header .profile-img {
     margin: 0 0 30px;
+    display: inline-block; max-width: 300px; max-height: 300px;
   }
+
+  .header .profile-img img {
+      max-width: 100%; height:auto;
+      object-fit: contain;
+  }
+  /* .headshot {
+      width: 400px;
+  } */
 }
 @media (max-width: 600px) {
   .header{
     padding: 20px;
   }
+  /* .headshot {
+      width: 400px;
+  } */
+    .header .profile-img {
+    margin: 0 0 30px;
+    display: inline-block; max-width: 300px; max-height: 300px;
+  }
+
+  .header .profile-img img {
+      max-width: 100%; height:auto;
+      object-fit: contain;
+  }
 }
+
+/* .headshot {
+  max-width: 400px;
+  height: auto;
+} */
 
 .top {
     border-radius: 30px;
@@ -235,6 +264,8 @@ a:hover, a:focus {
 }
 .news-wrapper li {
   padding-left: 20px; /* with hanging indent */
+  line-height: 1.5em;
+  margin-bottom: 10px;
   text-indent: -20px;
 }
 .news-wrapper li strong {
@@ -245,7 +276,8 @@ a:hover, a:focus {
  * publications
  * ---------------------------------------------- */
 .publications-wrapper .publications-item {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  line-height: 1.5em;
 }
 .publications-wrapper .publications-item .title {
   color: #444444;
@@ -253,7 +285,53 @@ a:hover, a:focus {
   margin-bottom: 3px;
 }
 .publications-wrapper .publications-item .conference {
-  margin-bottom: 3px;
+  /* margin-bottom: 3px; */
+  font-style: italic;
+  font-size: 13px;
+  margin: 5px 0;
+}
+
+.conf-name {
+    /* font-weight: 500; */
+    font-style: normal;
+    /* background: #a2e8c4; */
+    /* background: #b8e6ce; */
+    /* background: #cae8d8; */
+    /* border-top: 3px solid #b8e6ce; */
+    /* border-right: 3px solid #01ad54; */
+    background: #b8e6ce;
+    color: #333;
+    padding: 0 8px;
+    margin-right: 6px;
+}
+
+.publications-wrapper .publications-item .paper-link, .code-link, .talk-link, .bib-link {
+  font-style: normal;
+  font-size: 11px;
+  margin: 0 3px;
+  padding: 0px 5px;
+  border-radius: 3px;
+}
+
+.publications-wrapper .publications-item .paper-link {
+  background: #01ad54;
+  color: #fff;
+  margin: 0 3px 0 5px;
+}
+
+.publications-wrapper .publications-item .code-link {
+  background: #ccc;
+  color: #555;
+}
+
+.publications-wrapper .publications-item .talk-link {
+  background: #ddd;
+  color: #555;
+}
+
+.publications-wrapper .publications-item .bib-link {
+  background: #eee;
+  color: #555;
 }
 
 
