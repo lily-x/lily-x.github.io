@@ -126,12 +126,16 @@ a:hover, a:focus {
   /* padding-right: 15px; */
   padding: 10px 15px 10px 0;
   text-align: right;
-  border-right: 5px solid #01ad54;
+  /* border: 1px solid #ccc; */
+  border-top: 5px solid #01ad54; /* #01ad54; */
+
+  /* background: #f3f3f3; */
+  border-radius: 15px 0 0px 15px;
 }
 .section-title h2 {
   font-size: 16px;
   margin-bottom: 5px;
-  color: #aaaaaa;
+  color: #01ad54; /* aaaaaa */
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: .1rem;
@@ -289,6 +293,7 @@ a:hover, a:focus {
   font-style: italic;
   font-size: 13px;
   margin: 5px 0;
+  color: #aaa;
 }
 
 .conf-name {
@@ -300,39 +305,51 @@ a:hover, a:focus {
     /* border-top: 3px solid #b8e6ce; */
     /* border-right: 3px solid #01ad54; */
     letter-spacing: .1rem;
-    background: #b8e6ce;
+    /* background: #b8e6ce; */
+    border: 2px solid #b8e6ce;
     color: #444;
     padding: 0 8px;
-    margin: 0 6px 0 5px;
+    margin: 0 10px 0 10px;
+    border-radius: 5px;
 }
 
 .publications-wrapper .publications-item .paper-link, .code-link, .talk-link, .bib-link {
   font-style: normal;
+  font-weight: normal;
   font-size: 11px;
   margin: 0 3px;
   padding: 0px 5px;
   border-radius: 3px;
+  border: 2px solid #fff;
 }
 
 .publications-wrapper .publications-item .paper-link {
-  background: #01ad54;
+  background: #006832; /* #01ad54; */
+  border-color: #006832;
   color: #fff;
-  margin: 0 3px 0 5px;
+  margin-left: 5px;
 }
 
 .publications-wrapper .publications-item .code-link {
   background: #ccc;
+  border-color: #ccc;
   color: #555;
 }
 
 .publications-wrapper .publications-item .talk-link {
   background: #ddd;
+  border-color: #ddd;
   color: #555;
 }
 
 .publications-wrapper .publications-item .bib-link {
   background: #eee;
+  border-color: #eee;
   color: #555;
+}
+
+.publications-wrapper .publications-item .paper-link:hover, .publications-wrapper .publications-item .code-link:hover, .publications-wrapper .publications-item .talk-link:hover, .publications-wrapper .publications-item .bib-link:hover {
+  border-color: #b8e6ce;
 }
 
 
