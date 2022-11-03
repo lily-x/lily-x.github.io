@@ -164,9 +164,17 @@ a:hover, a:focus {
   /* font-size: 16px;
   line-height: 1.9em; */
 }
+
 .header .profile-img {
   margin-bottom: 30px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.header .profile-img img {
+  /* margin-bottom: 30px; */
   border-radius: 15px;
+  margin: 0 auto;
 }
 .header .name-wrapper {
   margin-bottom: 15px;
@@ -189,12 +197,14 @@ a:hover, a:focus {
     padding: 20px 0;
   }
     .header .profile-img {
-    margin: 0 0 30px;
-    display: inline-block; max-width: 300px; max-height: 300px;
+    margin-bottom: 30px;
+    display: block;
+    /* display: inline-block; */
   }
 
   .header .profile-img img {
-      max-width: 100%; height:auto;
+      max-width: 60%; height:auto;
+      margin: 0 auto;
       object-fit: contain;
   }
   /* .headshot {
@@ -202,20 +212,22 @@ a:hover, a:focus {
   } */
 }
 @media (max-width: 600px) {
-  .header{
+  .header {
     padding: 20px;
   }
   /* .headshot {
       width: 400px;
   } */
     .header .profile-img {
-    margin: 0 0 30px;
-    display: inline-block; max-width: 300px; max-height: 300px;
+    margin-bottom: 30px;
+    /* display: inline-block; */
+    display: block;
   }
 
   .header .profile-img img {
-      max-width: 100%; height:auto;
+      max-width: 60%; height:auto;
       object-fit: contain;
+      margin: 0 auto;
   }
 }
 
@@ -226,7 +238,7 @@ a:hover, a:focus {
 
 .top {
     border-radius: 30px;
-    padding: 25px;
+    padding: 25px 20px 25px 15px;
     background: #fff;
     /* border: 3px solid #999; */
 }
@@ -320,7 +332,7 @@ a:hover, a:focus {
   margin: 0 3px;
   padding: 0px 5px;
   border-radius: 3px;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
 }
 
 .publications-wrapper .publications-item .paper-link {
@@ -349,7 +361,11 @@ a:hover, a:focus {
 }
 
 .publications-wrapper .publications-item .paper-link:hover, .publications-wrapper .publications-item .code-link:hover, .publications-wrapper .publications-item .talk-link:hover, .publications-wrapper .publications-item .bib-link:hover {
-  border-color: #b8e6ce;
+  border-color: #444;
+}
+
+.publications-wrapper .publications-item .paper-link:hover {
+  border-color: #fff;
 }
 
 
