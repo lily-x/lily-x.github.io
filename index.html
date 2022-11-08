@@ -507,10 +507,11 @@
 <script>
 function showbib(conf) {
   var x = document.getElementById(conf);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
+  var curr = x.style.display;
+
+  x.style.display = "block";
+  if (curr === "block") {
+      x.style.display = "none";
   }
 }
 </script>
