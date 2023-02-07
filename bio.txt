@@ -71,7 +71,8 @@ Title: Learning and Planning Under Uncertainty for Wildlife Conservation
 
 Abstract: Wildlife poaching fuels the multi-billion dollar illegal wildlife trade and pushes countless species to the brink of extinction. To aid rangers in preventing poaching in protected areas around the world, we have developed PAWS, the Protection Assistant for Wildlife Security. We present technical advances in multi-armed bandits and robust sequential decision-making using reinforcement learning, with research questions that emerged from on-the-ground challenges. We also discuss bridging the gap between research and practice, presenting results from field deployment in Cambodia and large-scale deployment through integration with SMART, the leading software system for protected area management used by over 1,000 wildlife parks worldwide.
 
-Bio: Lily Xu is a PhD student at Harvard developing AI techniques to address environmental planning challenges. She has focused on advancing methods in machine learning and game theory for wildlife conservation through preventing illegal wildlife poaching. Lily co-organizes the Mechanism Design for Social Good (MD4SG) research initiative, and her research has been recognized with best paper runner-up at AAAI, the INFORMS Doing Good with Good OR award, and a Google PhD Fellowship.
+Bio: Lily Xu is a PhD student at Harvard developing AI techniques to address environmental planning challenges. She has focused on advancing methods in machine learning and game theory for wildlife conservation through preventing wildlife poaching. Lily co-organizes the Mechanism Design for Social Good (MD4SG) research initiative, and her research has been recognized with best paper runner-up at AAAI, the INFORMS Doing Good with Good OR award, and a Google PhD Fellowship.
+
 
 ——————————
 
