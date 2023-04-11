@@ -121,6 +121,30 @@ Abstract: Sequential decision-making algorithms, including reinforcement learnin
 Bio: Lily Xu is a PhD student at Harvard developing AI techniques to address environmental planning challenges. She has focused on advancing methods in online learning and reinforcement learning for wildlife conservation through preventing wildlife poaching. Lily co-organizes the Mechanism Design for Social Good (MD4SG) research initiative, and her research has been recognized with best paper runner-up at AAAI, the INFORMS Doing Good with Good OR award, and a Google PhD Fellowship.
 
 
+—————————————————————
+
+INFORMS Healthcare (July 2023) 
+
+Title: Online Learning and Robust Planning: Restless Bandits for Maternal Health Interventions
+
+
+Online Learning for Restless Bandits: Scheduling Interventions for Maternal Health
+
+Restless multi-armed bandits (RMABs) extend multi-armed bandits to allow for stateful arms, where the state of each arm evolves restlessly depending on whether that arm is pulled. RMABs have been applied to critical sequential decision-making problems including scheduling health interventions. However, solving RMABs requires knowing transition dynamics, which are often unknown upfront, particularly in healthcare applications. Here, we propose the first online learning algorithm based on the Whittle index policy, using an upper confidence bound (UCB) approach. Specifically, we estimate confidence bounds of the unknown transition probabilities and formulate a bilinear program to compute optimistic Whittle indices. Our algorithm, UCWhittle, achieves sublinear O(H √ T log T) frequentist regret in T episodes with a constant horizon H. Empirically, we demonstrate that UCWhittle achieves improved performance on a real maternal and childcare dataset from an NGO in India.
+
+
+
+——————
+
+WWF Fuller Seminar - April 2023
+
+
+Lily Xu is a computer science PhD student at Harvard developing AI techniques to address environmental challenges. She focuses on advancing methods in machine learning, sequential decision-making, and game theory for biodiversity conservation through preventing illegal wildlife poaching. Her work building the PAWS system to predict poaching hotspots has been deployed in Cambodia and is being scaled globally to 1,000 protected areas through integration with SMART conservation software. Lily co-organizes the Mechanism Design for Social Good (MD4SG) research initiative and serves as AI Lead for the SMART Partnership. Her research has been recognized with best paper runner-up at AAAI, the INFORMS Doing Good with Good OR award, and a Google PhD Fellowship. She is passionate about building bridges between the conservation and computation communities, and has done so through organizing related workshops, working groups, and events.
+
+
+—————
+
+
 
 (note Bryan's bio:  Bryan Wilder is a fifth-year PhD student in Computer Science at Harvard University, where he is advised by Milind Tambe. His research focuses on the intersection of optimization and machine learning, with the goal of improving interventions that serve vulnerable populations. His work has received or been nominated for best paper awards at ICML and AAMAS, and was a finalist for the INFORMS Doing Good with Good OR competition. He is supported by a NSF Graduate Research Fellowship.)
 
