@@ -153,6 +153,20 @@ Abstract: Wildlife poaching pushes countless species to the brink of extinction,
  
 Bio: Lily Xu is a computer science PhD student at Harvard developing AI techniques to address environmental challenges. She focuses on advancing methods in machine learning, sequential decision-making, and game theory for biodiversity conservation through preventing wildlife poaching. Her work building the PAWS system to predict poaching hotspots has been deployed in Cambodia and is being scaled globally through integration with SMART conservation software. Lily co-organizes the Mechanism Design for Social Good (MD4SG) research initiative and serves as AI Lead for the SMART Partnership. Her research has been recognized with best paper runner-up at AAAI, the INFORMS Doing Good with Good OR award, and a Google PhD Fellowship. 
 
+————
+
+EECS Rising Stars application
+
+Lily Xu is a computer science PhD student at Harvard advised by Milind Tambe (PhD expected May 2024). In her research, she develops and deploys AI techniques to enable reliable decision-making in high-stakes settings. Specifically, she advances methods in machine learning, sequential decision-making, and game theory for biodiversity conservation through preventing wildlife poaching. Her work building the PAWS system to predict poaching hotspots has been deployed in Cambodia and is being scaled globally through integration with SMART conservation software. Lily co-organizes the Mechanism Design for Social Good (MD4SG) research initiative and serves as AI Lead for the SMART Partnership. Her research has been recognized with best paper runner-up at AAAI, the INFORMS Doing Good with Good OR award, and a Google PhD Fellowship.
+
+————
+
+EAAMO DC
+
+Title: High-stakes decisions with low-quality data: Learning and planning under uncertainty
+
+Abstract: My research advances AI methods to enable effective decision-making in resource-scarce settings where messy data is a ubiquitous limitation. Here, I demonstrate how immersion in the science and practice of environmental conservation—working in close partnership with stakeholders—unearths research questions guided by on-the-ground challenges. I present technical advances across multi-armed bandits, reinforcement learning, and causal inference to guide environmental decisions. Equally importantly, I discuss bridging the gap between research and practice, from field tests in Cambodia to large-scale deployment through integration with SMART, the leading software system for protected area management used by over 1,200 wildlife parks worldwide.
+
 
 
 
