@@ -168,6 +168,9 @@ Title: High-stakes decisions with low-quality data: Learning and planning under 
 Abstract: My research advances AI methods to enable effective decision-making in resource-scarce settings where messy data is a ubiquitous limitation. Here, I demonstrate how immersion in the science and practice of environmental conservation—working in close partnership with stakeholders—unearths research questions guided by on-the-ground challenges. I present technical advances across multi-armed bandits, reinforcement learning, and causal inference to guide environmental decisions. Equally importantly, I discuss bridging the gap between research and practice, from field tests in Cambodia to large-scale deployment through integration with SMART, the leading software system for protected area management used by over 1,200 wildlife parks worldwide.
 
 
+[WILDLABS short bio]
+PhD student in computer science at Harvard, focused on AI for patrol planning, protected area management, and impact evaluation. Also AI lead for the SMART Partnership
+
 
 
 ————
