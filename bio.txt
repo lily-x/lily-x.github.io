@@ -172,6 +172,16 @@ Abstract: My research advances AI methods to enable effective decision-making in
 PhD student in computer science at Harvard, focused on AI for patrol planning, protected area management, and impact evaluation. Also AI lead for the SMART Partnership
 
 
+———————
+
+Title: High-stakes decisions with low-quality data: Learning and planning under uncertainty for conservation
+
+Abstract: Wildlife poaching pushes countless species to the brink of extinction, with animal population sizes declining by an average of 70% since 1970. To aid rangers in preventing poaching in protected areas around the world, we have developed the Protection Assistant for Wildlife Security (PAWS). We present technical advances in multi-armed bandits, robust reinforcement learning, and causal inference, guided by research questions that emerged from on-the-ground challenges in deploying PAWS. We also discuss bridging the gap between research and practice, from field tests in Uganda and Cambodia to large-scale deployment through integration with SMART, the leading software system for protected area management used by over 1,000 wildlife parks worldwide.
+
+
+Bio: Lily Xu is a computer science PhD student at Harvard developing AI techniques to address environmental planning challenges. She focuses on advancing methods in machine learning, sequential decision-making, and game theory for biodiversity conservation through preventing wildlife poaching. Her work building the PAWS system to predict poaching hotspots has been deployed in Cambodia and is being scaled globally through integration with SMART conservation software. Lily co-organizes the Mechanism Design for Social Good (MD4SG) research initiative and serves as AI Lead for the SMART Partnership. Her research has been recognized with best paper runner-up at AAAI, the INFORMS Doing Good with Good OR award, and a Google PhD Fellowship.
+
+
 
 ————
 
@@ -181,3 +191,13 @@ PhD student in computer science at Harvard, focused on AI for patrol planning, p
 
 
 Bailey research summary: I do computer science research motivated by the goal of making democratic processes more efficacious and more equitable. On the technical side, I enjoy working with theoretical models and tools from social choice, learning theory, and algorithms. The problems I choose are practice-driven, and I aim for my work to be informed by practice and research from other disciplines. 
+
+———————
+
+
+Presentation title: Designing Algorithms for Social Good
+
+Algorithmic and artificial intelligence techniques show immense potential to deepen our understanding of socioeconomic inequality and inform interventions designed to improve access to opportunity. Interventions aimed at historically under-served communities are made particularly challenging by the fact that disadvantage and inequality are multifaceted, notoriously difficult to measure, and reinforced by feedback loops in underlying structures.
+In this talk, we develop and analyze algorithmic and computational techniques to address these issues through two types of interventions: one in the form of allocating scarce societal resources and another in the form of improving access to information. We examine the ways in which techniques from algorithms, discrete optimization, and network and computational science can combat different forms of disadvantage, including susceptibility to income shocks, disparities in access to health information, and social segregation. We discuss current policy and practice informed by this work and close with a discussion of an emerging research area -- Mechanism Design for Social Good (MD4SG) -- around the use of algorithms, optimization, and mechanism design to address this category of problems.
+
+Bio: Rediet Abebe is a Junior Fellow at the Harvard Society of Fellows. She holds a Ph.D. in computer science from Cornell University, where she was advised by Jon Kleinberg, as well as an M.S. in applied mathematics from Harvard University, an M.A. in mathematics from the University of Cambridge, and a B.A. in mathematics from Harvard College. Her research is in the fields of algorithms and AI, with a focus on discrete algorithms, optimization, network and computational science, and their applications to equity and social good concerns. As part of this research agenda, Abebe co-founded Mechanism Design for Social Good (MD4SG), a multi-institutional, interdisciplinary initiative working to improve access to opportunity. This initiative has participants from over 100 institutions in 20 countries and has been supported by Schmidt Futures, the MacArthur Foundation, and the Institute for New Economic Thinking. Abebe's work has informed policy and practice at various organizations, including the Ethiopian Ministry of Education and the National Institutes of Health. In 2019, she served on the NIH Advisory Committee to the Director Working Group on AI, whose recommendations were unanimously approved by the General Director's advisory committee. Abebe was recently recognized by the 2019 MIT Technology Review’s 35 Innovators Under 35 award and honored as a one to watch by the 2018 Bloomberg 50 list. She has presented her research in venues such as the National Academy of Sciences, the United Nations, and the Museum of Modern Art. Her work has been covered by outlets including Forbes, the Boston Globe, and the Washington Post. In 2017 Abebe co-founded Black in AI, a non-profit organization tackling diversity and inclusion issues in the field. Her research is deeply influenced by her upbringing in her hometown of Addis Ababa, Ethiopia.
